@@ -2,8 +2,8 @@ import * as React from 'react';
 import { Links, LiveReload, Meta, Outlet, Scripts, ScrollRestoration, useCatch } from '@remix-run/react';
 import { withEmotionCache } from '@emotion/react';
 import { unstable_useEnhancedEffect as useEnhancedEffect } from '@mui/material';
-import theme from './src/theme';
-import ClientStyleContext from './src/ClientStyleContext';
+import theme from './mui-config/theme';
+import ClientStyleContext from './mui-config/ClientStyleContext';
 
 interface DocumentProps {
   children: React.ReactNode;
